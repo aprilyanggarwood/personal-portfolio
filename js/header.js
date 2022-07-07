@@ -25,7 +25,7 @@ class HeaderComponent extends HTMLElement {
 <div class="listNavbar">
   <ul class="nav">
   <li class="nav-item">
-    <a class="navLink" href="./index.html">Home</a>
+    <a class="navLink" href="../index.html">Home</a>
   </li>
   <li class="nav-item">
     <a class="navLink" href="./projects.html">Projects</a>

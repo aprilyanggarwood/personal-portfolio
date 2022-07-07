@@ -1,6 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
+class HeadComponent extends HTMLElement {
+  constructor() {
+    super();
+  }
+
+  connectedCallback() {
+    this.innerHTML = `
+
+
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -32,23 +40,10 @@
     <script src="./js/header.js"></script>
     <script src="./js/footer.js"></script>
   </head>
+      
+      
+      `;
+  }
+}
 
-  <body>
-    <header-component></header-component>
-
-    <div class="card cardList">
-      <ul class="list-group list-group-flush">
-        <li class="list-group-item">An item</li>
-        <li class="list-group-item">An item</li>
-        <li class="list-group-item">An item</li>
-        <li class="list-group-item">An item</li>
-        <li class="list-group-item">An item</li>
-        <li class="list-group-item">An item</li>
-        <li class="list-group-item">An item</li>
-        <li class="list-group-item">An item</li>
-      </ul>
-    </div>
-    <!-- Footer web part -->
-    <footer-component></footer-component>
-  </body>
-</html>
+customElements.define("head-component", HeadComponent);

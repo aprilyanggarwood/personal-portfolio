@@ -22,11 +22,6 @@ background-color: lightyellow;
 }
 
 
-
-.navtabs {
-    
-}
-
 .navbar-brand {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -86,7 +81,6 @@ footer {
   left: 0;
   width: 100%;
   background-color: orange;
-  /* text-align: center; */
   padding-top:5px;
 padding-bottom:5px;
 }
@@ -114,7 +108,6 @@ font-size:40px;
 
 .footerBU{
 font-size:20px;
-/* font-family: "Libre Baskerville", serif; */
 font-weight:400;
 align-items: center;
 margin-bottom:0px;
@@ -126,4 +119,27 @@ display:flex;
 height:40px;
 padding: 5px 5px;
 align-items: center;
+}
+
+/* Styling for landing page card with list */
+
+.cardList{
+    width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* styling for projects page  */
+.card-content{
+margin-top:50px;
+
+}
+
+.headerProjects{
+    font-family: "Libre Baskerville", serif;
+    text-align: center;
+    margin-top:25px;
 }
