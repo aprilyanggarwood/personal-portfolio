@@ -1,0 +1,129 @@
+
+
+
+/* styling for nav */
+
+.navbar{
+background-color:lightgray;
+
+}
+
+.navbar>.container-fluid {
+justify-content: center;
+
+}
+
+.nav-div{
+border-bottom: solid 1px lightgray;
+   
+padding-top:5px;
+padding-bottom:5px;
+background-color: lightyellow;
+}
+
+
+
+.navtabs {
+    
+}
+
+.navbar-brand {
+    padding-top: 20px;
+    padding-bottom: 20px;
+     font-family: "Libre Baskerville", serif;
+     color:#66188B;
+     font-size: xx-large;
+     margin: 0px;
+}
+
+.listNavbar{
+
+padding-right:20px;
+padding-top:5px;
+padding-bottom:5px;
+font-family: "Libre Baskerville", serif;
+
+}
+
+.navLink{
+
+     padding: 5px 5px;
+     text-decoration: none;
+    
+
+}
+
+.navLink:hover {
+    background-color: orange;
+    border-radius: 5px;
+}
+
+.nav-item{
+        padding: 5px 5px;
+        display: flex;
+        align-items: center;
+}
+
+.nav{
+justify-content: flex-end;
+
+}
+
+hr{
+margin-top: 0px;
+margin-bottom: 0px;
+border-width: 5px 0px 0px;
+color:orange;
+opacity:100%;
+
+}
+
+/* Styling for footer */
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: orange;
+  /* text-align: center; */
+  padding-top:5px;
+padding-bottom:5px;
+}
+
+.copyRight{
+  font-family: "Libre Baskerville", serif;
+  color:white;
+  font-size:small;
+  padding-left:20px;
+  padding-top: 10px;
+
+}
+
+.row {
+
+    align-items: center;
+
+}
+
+.footerLink{
+color:black;
+font-size:40px;
+
+}
+
+.footerBU{
+font-size:20px;
+/* font-family: "Libre Baskerville", serif; */
+font-weight:400;
+align-items: center;
+margin-bottom:0px;
+}
+
+.vl {
+border-right:1px solid red; height:10px;
+display:flex;
+height:40px;
+padding: 5px 5px;
+align-items: center;
+}
