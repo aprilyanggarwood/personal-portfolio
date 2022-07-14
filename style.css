@@ -85,6 +85,11 @@ footer {
 padding-bottom:5px;
 }
 
+.footerDiv{
+ margin-top:200px
+
+}
+
 .copyRight{
   font-family: "Libre Baskerville", serif;
   color:white;
@@ -128,7 +133,7 @@ align-items: center;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
-    margin-bottom: 30px;
+    /* margin-bottom: 150px; */
     text-align: center;
 }
 
@@ -140,6 +145,115 @@ margin-top:50px;
 
 .headerProjects{
     font-family: "Libre Baskerville", serif;
-    text-align: center;
+    /* text-align: center; */
     margin-top:25px;
+    display: inline-flex;
+}
+
+/* styling for resume page */
+.resumeDiv{
+  text-align: center;
+  width: 80%;
+    margin: auto;
+
+}
+
+.resumeP{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+
+}
+
+/* .aboutMe{
+
+display: flex;
+
+flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+} */
+
+.aprilimg {
+  float: left;
+    margin-right: 30px;
+    margin-bottom: 5px;
+    width: 30%;
+    height: auto;
+    border-radius: 5px;
+    /* margin-top: 50px; */
+    /* margin-left: 30px; */
+}
+
+.flowerimg{
+float: right;
+  margin-right: 20px;
+  width: 150%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 480px;
+
+}
+
+.cardAbout{
+  
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    text-align: left;
+    padding-bottom: 20px;
+    background-color: #EEE8D0;
+    padding-top: 40px;
+}
+
+.p1{
+       padding-top: 10px;
+    padding-left: 40px;
+    margin: 0px;
+    padding-right: 60px;
+}
+
+
+/* Styling resume page */
+.cardResume{
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    /* margin-bottom: 150px; */
+    text-align: left;
+    padding:20px 50px 20px 50px;
+
+}
+
+.nameH1{
+    text-align: center;
+
+}
+
+.card-subtitle{
+text-align: center;
+margin-bottom: 10px;
+}
+
+.workDiv{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.highlight{
+   padding-left: 5px;
+    padding-right: 5px; 
+    color: red;
+}
+
+.workInfo{
+margin-bottom: 5px;
+
+}
+
+.workUl{
+margin-bottom: 0px;
+
 }
