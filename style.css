@@ -145,9 +145,26 @@ margin-top:50px;
 
 .headerProjects{
     font-family: "Libre Baskerville", serif;
-    /* text-align: center; */
+    text-align: center;
+    margin-top:25px;
+   
+}
+
+.headerResume{
+    font-family: "Libre Baskerville", serif;
+    text-align: center;
     margin-top:25px;
     display: inline-flex;
+}
+
+.card-header{
+  text-align: center;
+
+}
+
+.card-footer{
+text-align: center;
+
 }
 
 /* styling for resume page */
@@ -165,14 +182,6 @@ margin-top:50px;
 
 }
 
-/* .aboutMe{
-
-display: flex;
-
-flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-} */
 
 .aprilimg {
   float: left;
@@ -181,8 +190,7 @@ flex-wrap: wrap;
     width: 30%;
     height: auto;
     border-radius: 5px;
-    /* margin-top: 50px; */
-    /* margin-left: 30px; */
+   
 }
 
 .flowerimg{
@@ -221,7 +229,7 @@ float: right;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
-    /* margin-bottom: 150px; */
+   background-color: #EEE8D0;
     text-align: left;
     padding:20px 50px 20px 50px;
 
