@@ -102,12 +102,12 @@ padding-bottom:5px;
   padding-top: 10px;
 
 }
-
+/* 
 .row {
 
     align-items: center;
 
-}
+} */
 
 .footerLink{
 color:black;
@@ -152,6 +152,11 @@ margin-top:50px;
     text-align: center;
     margin-top:25px;
    
+}
+
+.gridImg{
+    width: 285px; 
+    height: 200px;
 }
 
 .headerResume{
@@ -207,6 +212,10 @@ float: right;
 
 }
 
+.col2{
+    padding:0px;
+}
+
 .cardAbout{
   
 
@@ -223,7 +232,7 @@ float: right;
        padding-top: 10px;
     padding-left: 40px;
     margin: 0px;
-    padding-right: 60px;
+    padding-right: 10px;
 }
 
 
