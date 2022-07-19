@@ -102,12 +102,12 @@ padding-bottom:5px;
   padding-top: 10px;
 
 }
-/* 
-.row {
+
+.footerRow {
 
     align-items: center;
 
-} */
+}
 
 .footerLink{
 color:black;
@@ -131,6 +131,32 @@ align-items: center;
 }
 
 /* Styling for landing page card with list */
+
+.itemContainer{
+ width: 80%;
+ margin-top: 40px;
+}
+
+.itemBackground{
+background-color: #EEE8D0;
+font-family: 'Edu SA Beginner', cursive;
+color: var(--bs-link-color);
+font-weight: 600;
+
+}
+
+.list-group-item{
+    background-color: #EEE8D0;
+    font-family: 'Edu SA Beginner', cursive;
+   font-weight: 500;
+}
+
+
+.studyImg{
+  border-radius: 5%;
+
+}
+
 
 .cardList{
     width: 30rem;
@@ -168,12 +194,21 @@ margin-top:50px;
 
 .card-header{
   text-align: center;
+  background-color: #EEE8D0;
+   font-family: 'Edu SA Beginner', cursive;
+   font-weight: 400;
+   
+}
 
+.card-header-link{
+text-decoration: none;
 }
 
 .card-footer{
 text-align: center;
-
+background-color: #EEE8D0;
+ font-family: 'Edu SA Beginner', cursive;
+   font-weight: 400;
 }
 
 /* styling for resume page */
@@ -278,3 +313,4 @@ margin-bottom: 5px;
 margin-bottom: 0px;
 
 }
+

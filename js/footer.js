@@ -15,7 +15,7 @@ class FooterComponent extends HTMLElement {
  <footer>
 
     <div class="grid">
-    <div class="row">
+    <div class="row footerRow">
     <div class="col-4">
     <p class="copyRight">&copy; Copyright April Yang</p>
     </div>
@@ -30,14 +30,14 @@ class FooterComponent extends HTMLElement {
     <a class="navLink footerLink" href="https://github.com/aprilyanggarwood/personal-portfolio" target="_blank"><i class="fa-brands fa-github"></i></a>
   </li>
   <li class="nav-item">
-    <a class="navLink footerLink" href="Web Development Degree" target="_blank"><i class="fa-solid fa-file-lines"></i></a>
+    <a class="navLink footerLink" href="Web Development Degree" target="_blank"><i class="fa-solid fa-file-lines"></i><span style="font-size:1rem;">Degree</span></a>
   </li>
 
   <li class="nav-item">
   <span class="vl footerLink"></span>
 </li>
 <li class="nav-item">
-  <p class="footerBU">BU</p>
+  <p class="footerBU"><a style="text-decoration:none;color:black;"href="https://www.bellevue.edu/" target="_blank">BU</a></p>
 </li>
    <li class="nav-item">
     <a class="navLink footerLink" href="https://github.com/buwebdev" target="_blank"><i class="fa-brands fa-github"></i></a>

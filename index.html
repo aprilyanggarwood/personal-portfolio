@@ -33,6 +33,10 @@
       href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./style.css" />
     <title>Personal Portfolio</title>
 
@@ -42,8 +46,76 @@
 
   <body>
     <header-component></header-component>
+    <!-- first card container for bucket list -->
+    <!-- <div class="container"> -->
+    <h1 class="headerProjects">Bucket List</h1>
+    <div class="container itemContainer">
+      <div class="card mb-3">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="./images/study.png"
+              class="img-fluid studyImg"
+              alt="..."
+            />
+          </div>
+          <!-- item list -->
+          <div class="col-md-8 itemBackground">
+            <div class="card-body">
+              <h5 class="card-title">Web Development</h5>
+              <p class="card-text"></p>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  Get BS Degree in Web Development
+                </li>
+                <li class="list-group-item">
+                  Become a full time web developer
+                </li>
+                <li class="list-group-item">
+                  Work from home as a Web Developer
+                </li>
+                <li class="list-group-item">
+                  Build eCommerce websites for friends
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    <div class="card cardList">
+    <!-- Second card container for bucket list -->
+    <div class="container itemContainer">
+      <div class="card mb-3">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="./images/small-van.jpg"
+              class="img-fluid studyImg"
+              alt="..."
+            />
+          </div>
+          <!-- item list -->
+          <div class="col-md-8 itemBackground">
+            <div class="card-body">
+              <h5 class="card-title">Other Than Work and Study</h5>
+              <p class="card-text"></p>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Travel one country every year</li>
+                <li class="list-group-item">Have a dog</li>
+                <li class="list-group-item">
+                  Build a pretty garden in the front yard
+                </li>
+                <li class="list-group-item">Learn how to bake</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- </div> -->
+
+    <!-- <div class="card cardList">
       <ul class="list-group list-group-flush">
         <li class="list-group-item">An item</li>
         <li class="list-group-item">An item</li>
@@ -54,7 +126,8 @@
         <li class="list-group-item">An item</li>
         <li class="list-group-item">An item</li>
       </ul>
-    </div>
+    </div> -->
+
     <div class="footerDiv">
       <!-- Footer web part -->
       <footer-component></footer-component>
