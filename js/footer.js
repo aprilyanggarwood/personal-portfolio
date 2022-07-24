@@ -24,7 +24,7 @@ class FooterComponent extends HTMLElement {
 <div class="listFooter">
   <ul class="nav">
   <li class="nav-item">
-    <a class="navLink footerLink" href=""><i class="fa-brands fa-linkedin"></i></a>
+    <a class="navLink footerLink" href="https://www.linkedin.com/feed/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
   </li>
   <li class="nav-item">
     <a class="navLink footerLink" href="https://github.com/aprilyanggarwood/personal-portfolio" target="_blank"><i class="fa-brands fa-github"></i></a>
