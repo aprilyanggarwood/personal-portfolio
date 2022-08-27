@@ -211,6 +211,13 @@ background-color: #EEE8D0;
    font-weight: 400;
 }
 
+.diagramImg{
+width: 285px;
+height:200px;
+
+
+}
+
 /* styling for resume page */
 .resumeDiv{
   text-align: center;
