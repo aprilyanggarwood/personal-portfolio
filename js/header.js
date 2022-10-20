@@ -37,6 +37,9 @@ class HeaderComponent extends HTMLElement {
     <a class="navLink" href="./api.html">API Unit Tests</a>
   </li>
   <li class="nav-item">
+    <a class="navLink" href="./web-430/yang-tech-value-stream.html">DevOps</a>
+  </li>
+  <li class="nav-item">
     <a class="navLink" href="./resume.html">Resume</a>
   </li>
   <li class="nav-item">
