@@ -222,7 +222,7 @@ height:200px;
 .resumeDiv{
   text-align: center;
   width: 80%;
-    margin: auto;
+  margin: auto;
 
 }
 
@@ -319,5 +319,41 @@ margin-bottom: 5px;
 .workUl{
 margin-bottom: 0px;
 
+}
+
+
+/* new resume */
+.listContactInfo {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align:left;
+  padding-left: 50px;
+  color:white;
+  text-decoration:none;
+}
+
+.listContactInfo {
+  /* float: left; */
+  padding: 10px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+.listEducation {
+  color: black;
+}
+
+.listSkills{
+  color: #ffa500;
+}
+
+.listWorkEx {
+ 
+  color: black;
+  margin-right: 50px;
+
+  
 }
 
